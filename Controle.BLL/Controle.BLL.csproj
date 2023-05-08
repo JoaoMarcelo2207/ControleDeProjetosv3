@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Controle.DAL\Controle.DAL.csproj" />
+    <ProjectReference Include="..\Controle.MODEL\Controle.MODEL.csproj" />
+  </ItemGroup>
+
+</Project>
